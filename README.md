@@ -1,16 +1,63 @@
-# React + Vite
+## 🌦️ Weather-App (React.js)
+A simple and responsive Weather Application built using React.js that allows users to check real-time weather information for any city.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
+- 🌍 Search weather by city name
+-🌡️ Displays temperature, humidity, and weather conditions
+-☁️ Shows weather icons based on conditions
+-📱 Fully responsive UI
+-⚡ Fast and lightweight React app
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Weather API (e.g., OpenWeatherMap)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Installation & Setup
 
-## React Compiler
+1. Clone the repository
+    git clone https://github.com/muazkhan72/Weather-App.git
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+2. Navigate to the project directory
+    cd Weather-App
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Install dependencies
+    npm install
+
+4. Start the development server
+    npm start
+
+## 🔑 API Configuration
+1. Create an account on OpenWeatherMap
+2. Get your API key
+3. Add your API key in the project (e.g. inside .env or API file)
+
+## 📂 Project Structure
+
+Weather-App/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   ├── index.js
+│   └── App.css
+├── public/
+└── package.json
+
+## 🎯 Learning Outcome
+- Working with APIs in React
+- Handling state and user input
+- Conditional rendering
+- Improving UI/UX with dynamic data
+
+## 🤝 Contributing
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+## 👨‍💻 Developed by
+
+Muaz Khan
+Frontend / MERN Stack Developer 🚀
+
